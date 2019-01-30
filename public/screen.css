@@ -20,7 +20,7 @@ div {
 .myBody2 {
 	margin: 0;
 	min-height: 100%;
-	background-color: lightpink;
+	background-color: lightskyblue;
 }
 .hobbies-image {
 	width: 10%;
@@ -29,7 +29,34 @@ div {
 	background-color: yellowgreen;
 }
 .myNav2 {
-	background-color: blueviolet;
+	background-color: blue;
+}
+.myNav3 {
+	background-color: violet;
+}
+#myTr0 {
+	background-color: lightcoral;
+	transition: background-color 0.5s;
+}
+
+#myTr0:hover {
+	background-color: gold;
+}
+#myTr1 {
+	background-color: lightpink;
+	transition: background-color 0.5s;
+}
+
+#myTr1:hover {
+	background-color: gold;
+}
+#myTr2 {
+	background-color: lightsalmon;
+	transition: background-color 0.5s;
+}
+
+#myTr2:hover {
+	background-color: gold;
 }
 nav ul {
 	list-style: none;
@@ -57,6 +84,14 @@ ul.character-list {
 	list-style: none;
 }
 
+footer {
+	display: flex;
+	justify-content: center;
+	padding: 5px;
+	background-color: lightpink;
+	color: #fff;
+}
+
 #myFirstHeader {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
 		'Lucida Sans', Arial, sans-serif;
@@ -72,10 +107,20 @@ ul.character-list {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
 		'Lucida Sans', Arial, sans-serif;
 	font-size: 3rem;
-	color: blueviolet;
+	color: blue;
 	padding: 1rem;
 	margin: 1rem 4rem 1rem 4rem;
-	border: 0.25rem double blueviolet;
+	border: 0.25rem double blue;
+	text-align: center;
+}
+#myThirdHeader {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+		'Lucida Sans', Arial, sans-serif;
+	font-size: 3rem;
+	color: violet;
+	padding: 1rem;
+	margin: 1rem 4rem 1rem 4rem;
+	border: 0.25rem double violet;
 	text-align: center;
 }
 #myFirstParagraph {
