@@ -33,7 +33,17 @@ div {
 }
 .myNav3 {
 	background-color: violet;
+	animation-duration: 10s;
+	animation-name: slidein;
+	animation-iteration-count: 1;
 }
+
+table {
+	animation-duration: 10s;
+	animation-name: slidein;
+	animation-iteration-count: 1;
+}
+
 #myTr0 {
 	background-color: lightcoral;
 	transition: background-color 0.5s;
@@ -90,6 +100,9 @@ footer {
 	padding: 5px;
 	background-color: lightpink;
 	color: #fff;
+	animation-duration: 10s;
+	animation-name: slidein;
+	animation-iteration-count: 1;
 }
 
 #myFirstHeader {
@@ -122,6 +135,9 @@ footer {
 	margin: 1rem 4rem 1rem 4rem;
 	border: 0.25rem double violet;
 	text-align: center;
+	animation-duration: 10s;
+	animation-name: slidein;
+	animation-iteration-count: 1;
 }
 #myFirstParagraph {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -138,4 +154,16 @@ footer {
 #myli1 {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	color: black;
+}
+
+@keyframes slidein {
+	from {
+		margin-left: 100%;
+		width: 100%;
+	}
+
+	to {
+		margin-left: 0%;
+		width: 100%;
+	}
 }
